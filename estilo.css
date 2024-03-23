@@ -1,0 +1,543 @@
+*{
+    padding: 00;
+    margin: 00;
+    width: auto;
+    height:auto;
+}
+a{
+    text-decoration: none;
+    
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color: azure;
+    width: 1000px;
+    height: auto;
+}
+.principal{
+ 
+width: auto;
+height: auto;
+}
+.logo-img{
+    position: absolute;
+    top: 1%;
+    
+}
+
+.busca{
+    position: absolute;
+  
+    width:240px;
+    text-align: right;
+    top: 50px;
+    left:1200px ;
+
+}
+
+.biblioteca{
+    background: url(../imagens/estantesemfundo.png) no-repeat top right;
+    width: 200px;
+    height:50px;
+    float: right ;
+    position: absolute;
+    top: 127px;
+    left: 1200px;
+    font-size:11px ;
+    text-align: right;
+    padding-right:35px;
+}
+
+.fundoab{
+    background:url(../imagens/colecao-abundante-de-livros-antigos-em-prateleiras-de-madeira-geradas-por-ia-1.jpg)center;
+    opacity:50%;
+    width: auto;
+    height: auto;
+}
+#principal{
+    width: auto;
+    height: auto;
+    
+}
+
+
+#topo{
+ width: auto;
+ height: 120px; 
+
+
+}
+
+#menutop{
+    
+    padding: 7px;
+    width: 1480px;
+    height: 20px;
+    background-color: rgb(212, 243, 253);
+    margin: 0 auto;
+    text-align: right;
+    text-align: center;
+}
+#menutop ul{
+    position: absolute;
+    left: 845px;
+    width:auto;
+
+   
+  
+
+}
+#menutop ul li{
+    margin-left: 1px;
+    border-right: solid;  
+    border-width: 3px;
+    border-color:teal ;
+    margin: 10px;
+    display: inline;
+    padding: 10px;
+
+
+}
+#menutop ul li a:hover{
+    color: teal;
+    
+}
+#menutop ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+#lupa_pesquisa{
+    width: 15px;
+}
+#label_pesquisar{
+    align-items: 90px;
+}
+#cabecalho_superior{
+    width: 100%;
+    
+
+}
+
+#cabecalho_meio{
+    width: 1495px;
+    height: 177px;
+    position: relative;
+    padding: 00;
+    
+
+    
+    
+}
+#cabecalho_meio h1{
+
+text-indent: -9999px;
+width:175px;
+height: 175px;
+background: url(../imagens/logo_redm.png) no-repeat top right;
+
+
+}
+#cabecalho_final{
+    padding: 7px;
+    width: 1480px;
+    height: 20px;
+    background-color: rgb(212, 243, 253);
+    margin: 0 auto;
+    text-align: right;
+}
+#cabecalho_final ul {
+    position:absolute;
+    left: 723px;
+}
+#cabecalho_final ul li{
+    
+    margin-left: 20px;
+    border-right: solid;  
+    border-width: 3px;
+    border-color:teal ;
+    margin: 50px;
+    display: inline;
+    padding: 10px;
+
+}
+#cabecalho_final ul li a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+#banner{
+    position: relative;
+    bottom: -140px;
+    left: 350px;
+
+}
+
+
+#Banner{
+    position: relative;
+    bottom:-140px;
+    left: 350px;
+
+
+}
+#fotob{
+    width: 800px;
+    height: 350px;
+}
+
+
+
+#categorias{
+
+    position: absolute;
+    
+    top: 40.1%;
+    width: 8em;
+    margin-top: -2em;
+    height: auto;
+    width: 200px;
+    
+}
+#categorias ul {
+    list-style:  none;
+    font-size: 17px;
+    
+}
+#categorias ul a{
+    color: black;
+    padding: 10px;
+    
+    
+}
+#categorias h2{
+    margin-bottom: 15px;
+    
+}
+#categorias ul li {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: max-content;
+}
+.cate ul ul li{
+    border-bottom: solid 1px;
+}
+#categorias ul ul li a:hover{
+  color: teal;
+}
+#categorias ul li a:hover{
+    color: rgb(134, 13, 13);
+    font-size: 20px;
+    
+    
+  }
+.cate{
+    border: solid 1px;
+    background-color: rgb(212, 243, 253);
+    
+}
+
+
+
+
+.cate h2{
+background-color: azure;
+}
+.ebooks {
+    background-color: azure;
+    
+
+    
+}
+
+#box_center{
+    position: relative;
+    bottom: -200px;
+    left: 250px;
+}
+.bibliotecabox{
+
+    margin: 10px 0;
+    padding: 5px;
+    width: 1210px;
+    height: auto;
+    border: solid 1px black;
+
+}
+
+#box_center ul li {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 10px;
+    padding-bottom:15px;
+    padding-top: 10px;
+    
+   
+    }
+.titulos{
+    background: aliceblue;
+    border-bottom: solid;
+}
+#separador{
+    
+    border:solid 1px;
+}
+.bibliotecadiv{
+display: inline;
+
+  
+}
+.loja input {
+    width:30px;
+    height: 30px;
+    border-radius: 90px;
+    background: url(../imagens/carrinho_de_compra-removebg-preview.png)no-repeat center;
+}
+#rodape{
+
+bottom: 2600px;
+ width: 150%;
+ height: 400px;
+ background-color: rgb(212, 243, 253);
+ margin-top: 400px;
+ 
+  
+   
+}
+
+.preco{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#rodape2{
+    width: 100%;
+    
+}
+
+.fundorp{
+    width: auto;
+    height: auto;
+    
+
+}
+
+#caixarp1{
+
+padding-left: 100px;
+float: left;
+
+width: 300px;
+margin-top:200px ;
+}
+#caixarp{
+
+    padding-right: 100px;
+    float: right;
+
+    width: 200px;
+    margin-top:200px ;
+    }
+
+
+.limpar{
+    clear: both;
+}
+
+#logorp{
+    position: absolute;
+    left: 70px;
+    
+}
+#wthsap{
+    color: black;
+
+
+}
+
+#vendas{
+    position: relative;
+    width: 1200px;
+    margin-left: 40px;
+    border: solid;
+    border-color: black;
+    background-color: aliceblue;
+    margin-top: 50px;
+    height: 400px;
+}
+
+.capalivro{
+    position: relative;
+    background-color: azure;
+    height: 300px;
+    width: 300px;
+    margin-left: 3px;
+    border-left: solid;
+    border-right:solid;
+    padding-right: 5px;
+    border-bottom: solid;
+    
+
+}
+.capalivro img{
+    padding-top: 14px;
+    padding-left:55px;
+}
+.precolivr{
+    border:solid 1px;
+    font-size: 15px;
+    width: 170px;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 4px;
+    background-color: azure;
+    margin-bottom: 5px;
+    padding-top: 2px;
+    left: 700px;
+    bottom: 110px;
+}
+
+.desc{
+    position: relative;
+    bottom: 300px;
+    left: 350px;
+    border: dotted 2px;
+    width: 800px;
+
+    
+}
+.desc p {
+    font-size: 14px;
+}
+
+.autor{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom:120px;
+    background: url(../imagens/eu_e_pepl.jpg) center no-repeat;
+    left: 350px;
+    border-radius: 90px;
+    border: solid;
+    
+   
+}
+
+.nome_autor{
+    position:relative;
+    left: -10px;
+    bottom:  20px;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    border: groove 11px;
+    border-color: gold;
+    padding:3px;
+    padding-right: 3px;
+
+    
+}
+.nome_autor h6{
+    position: relative;
+    left: 30px;
+}
+.nome_autor p {
+    position: relative;
+    font-size: 9px;
+    left: 25px;
+}
+
+.comprar{
+    position: absolute;
+    
+    
+    
+    
+    
+
+
+}
+.comprar input{
+    
+    position: relative;
+
+    width: 115px; 
+    background:url(../imagens/botao_comprar_grande.png)center no-repeat;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+
+}  
+.abinha{
+    margin-top:4px;
+    position: absolute;
+    left: 40px;
+    border-radius: 9px;
+    border: solid 3px;
+    background-color:aliceblue;
+}
+
+
+.caixa_d_conteudo{
+    margin-top: 3px;
+    margin-bottom: 3px;
+   
+}
+
+.center{
+    position: relative;
+    text-align: center;
+    
+}
+.content {
+    display: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+
+.content.show{
+    display: flex;
+    gap: 14px;
+    background-color: aqua;
+   
+}
+.descricaolong:hover {
+    background-color: rgba(183, 255, 255, 0.679);
+}
+.descricaolong {
+    position: relative;
+    left:20px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 0.5px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-color: azure;
+    cursor: pointer;
+    transition: background-color.4s ease;
+
+    
+}
+.descricaolong.active{
+    background-color: aqua
+}
+
+.caixa_d_conteudo{
+    background-color:rgba(110, 200, 248, 0.373) ;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+
